@@ -74,8 +74,8 @@ async function getCharacters(){
                         <p class="films">Films: ${n.films.length} ${(arrFilmsDot + arrFilms).slice(0, -1)}</p><br>
                         <p class="shortFilms">Short films: ${n.shortFilms.length} ${(arrShotFilmsDot + arrShotFilms).slice(0, -1)}</p><br>
                         <p class="tvShows">TV Shows: ${n.tvShows.length} ${(arrTvShowsDot + arrTvShows).slice(0, -1)}</p><br>
-                        <p class="tvShows">TV Shows: ${n.tvShows.length} ${(arrvideoGamesDot + arrvideoGames).slice(0, -1)}</p><br>
-                        <p class="tvShows">TV Shows: ${n.tvShows.length} ${(arrparkAttractionsDot + arrparkAttractions).slice(0, -1)}</p><br>
+                        <p class="tvShows">TV Shows: ${n.videoGames.length} ${(arrvideoGamesDot + arrvideoGames).slice(0, -1)}</p><br>
+                        <p class="tvShows">TV Shows: ${n.parkAttractions.length} ${(arrparkAttractionsDot + arrparkAttractions).slice(0, -1)}</p><br>
                     </div><br>
                     <a href="./index.html"><button class="closeSpan">CLOSE</button></a>
                 </section>
